@@ -26,7 +26,7 @@ JqueryFileUploadMiddleware.prototype.prepareOptions = function (options) {
 //            }
         },
         accessControl: {
-            allowOrigin: '*',
+            allowOrigin: 'http://online-pdfconverter.net',
             allowMethods: 'OPTIONS, HEAD, GET, POST, PUT, DELETE'
         }
     }, options);
